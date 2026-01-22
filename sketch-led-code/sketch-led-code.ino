@@ -1,5 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
+//led links blauw = pin  /   bruin = gnd  / geel = 5v 
+//led rechts blauw = pin /  bruin = gnd  / rood = 5v
 #define PIN1 7
 #define PIN2 8
 #define NUM_LEDS 180
@@ -37,3 +39,6 @@ void waveEffect() {
   strip2.show();
   delay(25);  
 }
+
+
+//
